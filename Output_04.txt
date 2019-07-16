@@ -1,0 +1,12 @@
+Car is accelerating: 
+Current speed:5
+Current speed:10
+Current speed:15
+Current speed:20
+Current speed:25
+Car is braking: 
+Current speed:20
+Current speed:15
+Current speed:10
+Current speed:5
+Current speed:0

@@ -19,46 +19,50 @@ class Car:
 #Usage:
 carObject = Car(2000, 'toyato')
 
-print 'Car is accelerating: '
+fileObj = open('Output_04.txt', 'w')
+
+fileObj.write('Car is accelerating: \n')
 carObject.accelerate()
 curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
 
-
-carObject.accelerate()
-curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
-
-carObject.accelerate()
-curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
 
 carObject.accelerate()
 curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
 
 carObject.accelerate()
 curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
+
+carObject.accelerate()
+curSpeed = carObject.get_speed()
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
+
+carObject.accelerate()
+curSpeed = carObject.get_speed()
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
 
 
-print 'Car is braking: '
+fileObj.write('Car is braking: \n')
 carObject.brake()
 curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
-
-carObject.brake()
-curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
-
-carObject.brake()
-curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
-
-carObject.brake()
-curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
 
 carObject.brake()
 curSpeed = carObject.get_speed()
-print 'Current speed:', curSpeed
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
+
+carObject.brake()
+curSpeed = carObject.get_speed()
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
+
+carObject.brake()
+curSpeed = carObject.get_speed()
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
+
+carObject.brake()
+curSpeed = carObject.get_speed()
+fileObj.write('Current speed:' + str(curSpeed) + '\n')
+
+fileObj.close()
