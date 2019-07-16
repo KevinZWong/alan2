@@ -1,0 +1,30 @@
+2 has 2 factors 
+2 is a prime number 
+
+3 has 2 factors 
+3 is a prime number 
+
+5 has 2 factors 
+5 is a prime number 
+
+19 has 2 factors 
+19 is a prime number 
+
+33 has 4 factors 
+33 is not a prime number 
+
+17 has 2 factors 
+17 is a prime number 
+
+44 has 6 factors 
+44 is not a prime number 
+
+31 has 2 factors 
+31 is a prime number 
+
+21 has 4 factors 
+21 is not a prime number 
+
+99 has 6 factors 
+99 is not a prime number 
+
